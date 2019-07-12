@@ -1,0 +1,2134 @@
+﻿/** /////////////////////////////////////////// universal font used through out the site /////////////////////////////////// **/
+@font-face
+{
+    font-family: "LTC_twentienth_Century_MD";
+    src: url("../Fonts/ltc-twentieth-century-medium-latin-1.eot"); /*IE9 */
+    src: local("ltc-twentieth-century-medium-latin-1"), url("../Fonts/ltc-twentieth-century-medium-latin-1.eot") format("embedded-opentype"), url("../Fonts/ltc-twentieth-century-medium-latin-1.ttf") format("truetype");
+}
+/** home page **/
+#home-content
+{
+}
+/** /////////////////////////////////////////// top of page photos //////////////////////////////////////////// **/
+/** tabbed forms page top photo page **/
+#home-photo
+{
+    width: 960px;
+    height: 125px;
+    margin-bottom: 20px;
+    background: transparent url('../Images/splashPhoto1.jpg') no-repeat;
+}
+#home-photo img
+{
+    display: none;
+}
+/** login page top photo page **/
+#login-photo
+{
+    width: 960px;
+    height: 125px;
+    margin-bottom: 20px;
+    background: transparent url('../Images/splashPhoto2.jpg') no-repeat;
+}
+#login-photo img
+{
+    display: none;
+}
+/** registration page top photo page **/
+#register-photo
+{
+    width: 960px;
+    height: 125px;
+    margin-bottom: 20px;
+    background: transparent url('../Images/splashPhoto3.jpg') no-repeat;
+}
+#register-photo img
+{
+    display: none;
+}
+/** contact page top photo page **/
+#contactUs-photo
+{
+    width: 960px;
+    height: 125px;
+    margin-bottom: 20px;
+    background: transparent url('../Images/splashPhoto4.jpg') no-repeat;
+}
+#ContactUs-photo img
+{
+    display: none;
+}
+#chooseOption-photo
+{
+    width: 960px;
+    height: 125px;
+    margin-bottom: 20px;
+    background: transparent url('../Images/hotelChoiceheader.jpg') no-repeat;
+}
+#chooseOption-photo img
+{
+    display: none;
+}
+#RFPReview-photo
+{
+    width: 960px;
+    height: 125px;
+    margin-bottom: 20px;
+    background: transparent url('../Images/ReviewTitle.jpg') no-repeat;
+}
+#RFPReview-photo img
+{
+    display: none;
+}
+/** /////////////////////////////////////////// top of page photos //////////////////////////////////////////// **/
+.box
+{
+    width: 310px;
+    min-height: 512px;
+    float: left;
+}
+.news-item .title a:hover, .news-item .title:hover span
+{
+    color: black;
+}
+/** Interior Pages **/
+#right
+{
+    min-height: 100%;
+    padding: 0 10px;
+}
+#inside-nav ul
+{
+    display: block;
+}
+#inside-nav ul li
+{
+    display: block;
+    text-transform: uppercase;
+    font-size: 12px;
+    margin-left: 30px;
+    margin-bottom: 13px;
+    font-family: "Arial" , sans-serif;
+    font-weight: bold;
+}
+
+/*#right h1 {
+  margin: 0 0 24px 0;
+}
+#right h2 {
+  margin: 24px 0 8px 0;
+}
+#right h3 {
+	margin: 25px 0 3px 0;
+}
+#right p {
+  margin: 0 0 15px 0;
+}
+
+#right p, #right ul {
+	font-size: 14px;
+	margin: 0 0 15px 0;
+	display: block;
+	line-height: 18px;
+}
+#right ul {
+	margin-top: 15px;
+	margin-bottom: 30px;
+}
+
+#right ul li {
+  padding-left: 10px;
+  line-height: auto;
+  margin: 10px 0;
+  background: transparent url('../images/ovationtravel/black_bullet.png') no-repeat left 6px;
+  font-size: 14px;
+  display: block;
+  color: black;
+  margin-left: 10px;
+}
+*/
+/** contact us page **/
+
+/*---------------------------------------
+ callouts
+---------------------------------------*/
+
+#content ul.callouts li
+{
+    background: none;
+    margin: 0 0 20px 0;
+    padding: 0;
+}
+#right .main-content
+{
+    overflow: hidden;
+}
+#content ul.callouts
+{
+    float: right;
+    margin: 0 0 0 20px;
+    padding: 0;
+}
+#content ul.callouts img
+{
+    display: block;
+}
+
+.inline-callout
+{
+    float: left;
+    margin-right: 10px;
+}
+
+#content ul.selling-point-description
+{
+    margin-top: 0;
+}
+
+#content .selling-point-description ul li
+{
+    margin-left: 0;
+}
+
+.selling-point-description
+{
+    overflow: hidden;
+}
+.selling-point
+{
+    overflow: hidden;
+}
+
+#contact-us #left h3, #thank-you #left h3, #form-error #left h3
+{
+    width: 250px;
+    margin: 0 auto 16px auto;
+    font-weight: bold;
+}
+
+#contact-us #left p, #thank-you #left p, #form-error #left p, #contact-thank-you #left p
+{
+    width: 250px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+#contact-us #left p, #contact-us right p
+{
+    line-height: 16px;
+}
+
+#contact-form
+{
+    width: 250px;
+    margin: 0 auto;
+    display: block;
+}
+#contact-form label
+{
+    display: none;
+}
+
+#contact-form input, #contact-form select
+{
+    float: left;
+    width: 100%;
+}
+
+#contact-form select
+{
+    width: auto;
+}
+
+#contact-form #name, #contact-form #company-name, #contact-form #title, #contact-form #phone, #contact-form #email, #contact-form #comments
+{
+    width: 246px;
+}
+
+#contact-form #state, #contact-form #zip
+{
+    margin-left: 10px;
+}
+
+#contact-form #city
+{
+    width: 116px;
+}
+
+#contact-form #zip
+{
+    width: 40px;
+}
+
+#contact-form #comments
+{
+    height: 60px;
+}
+
+#contact-form #mailing-list
+{
+    margin-top: -2px;
+    width: auto;
+    margin-left: 0px;
+}
+
+#contact-form #mailing-label
+{
+    display: block;
+    font-family: "Arial" , sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+}
+
+#contact-us #contact-form #required-message
+{
+    width: 100px;
+    font-size: 10px;
+    margin-bottom: 0px;
+    text-align: left;
+    text-indent: 0;
+    padding: 0;
+    position: relative;
+    left: -73px;
+}
+
+#contact-form .submit-button
+{
+    float: right;
+    position: relative;
+    top: -3px;
+    width: 76px;
+}
+
+#contact-form .form_error, #resources-form .form_error
+{
+    float: left;
+    display: block;
+    width: 256px;
+    height: 18px;
+    font-size: 12px;
+    font-family: serif;
+    position: relative;
+    top: -9px;
+}
+
+#contact-form .form_error
+{
+    color: red;
+}
+
+
+#hq-contact
+{
+    position: absolute;
+    top: 135px;
+}
+
+#right #travel-assistance, #right #technical-support
+{
+    margin-top: 15px;
+}
+/** Careers Page **/
+#careers #left div:first-child
+{
+    display: none;
+}
+/** page title images **/
+#right h1, #ovation-in-the-news h1
+{
+    display: block;
+    color: transparent;
+    background-repeat: no-repeat;
+    height: 49px;
+}
+#right h1 span, #ovation-in-the-news h1 span
+{
+    visibility: hidden;
+}
+
+#survey-thank-you #right
+{
+    padding-top: 15px;
+}
+
+#global-solutions a.show
+{
+    display: none;
+}
+
+#global-solutions h3
+{
+    margin-bottom: 15px;
+}
+
+
+#global-solutions .radius-map
+{
+    position: relative;
+    left: -24px;
+}
+
+#ovation-station #right h1
+{
+    background-image: url('../images/ovationtravel/header_ovation-station.png');
+    height: 19px;
+}
+#travel-tools h1
+{
+    background-image: url('../images/ovationtravel/header_travel-tools.png');
+    height: 19px;
+}
+#resources #right h1
+{
+    background-image: url('../images/ovationtravel/header_resources.png');
+    height: 19px;
+}
+#careers #right h1
+{
+    background-image: url('../images/ovationtravel/header_careers.png');
+    height: 19px;
+}
+#industries-served #content ul.industries
+{
+    width: 250px;
+}
+/** error page **/
+
+body
+{
+    font-family: "Arial" ,sans-serif;
+    color: #5A5A5A;
+    font-size:12px;
+}
+#top
+{
+    height: auto;
+}
+/* ------------------------- size hotel forms page here -------------------------------- */
+
+#header, #content, #footer
+{
+    width: 960px;
+    margin: 0 auto;
+}
+#header
+{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    height: 70px;
+    margin-bottom: 30px;
+}
+/* ------------------------- Logo -------------------------------- */
+#logo
+{
+    position: absolute;
+    bottom: 0px;
+    top: 3px;
+    left: 130px;
+}
+#logo_right
+{
+    padding-left: 45px;
+}
+#middle
+{
+    background-color: #EFEDED;
+}
+#content
+{
+    background-color: white;
+    min-height: 500px;
+    display: block;
+    padding-bottom: 70px;
+    position: relative;
+}
+#bottom
+{
+    height: 177px;
+    background-color: #1D1D1D;
+}
+#footer
+{
+    color: #999999;
+    font-size: 10px;
+    font-family: "Arial" ,sans-serif;
+    height: 135px;
+    padding-top: 20px;
+    padding-left: 45px;
+    position: relative;
+}
+#copyright
+{
+    margin-bottom: 22px;
+}
+#footer-message
+{
+    width: 431px;
+    line-height: 14px;
+    padding-bottom: 15px;
+}
+#footer-nav
+{
+    margin-bottom: 5px;
+}
+#footer-nav li
+{
+    float: left;
+    margin-right: 10px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 10px;
+}
+
+#footer-nav a:visited, #footer-nav a:active, #footer-nav a:link, #footer-nav a:hover
+{
+    color: white;
+    text-decoration: none;
+    font-family: "Arial" ,sans-serif;
+    font-weight: bold;
+}
+
+#footer-nav a:hover
+{
+    text-decoration: none;
+    color: #8F8F8F;
+}
+#main-nav ul li.home
+{
+    display: none;
+}
+#main-nav
+{
+    position: absolute;
+    bottom: 0px;
+    right: 5px;
+    font-family: "Arial" ,sans-serif;
+    font-weight: bold;
+}
+#main-nav ul
+{
+    display: block;
+    font-family: "Arial" ,sans-serif;
+    font-weight: bold;
+}
+#main-nav ul li
+{
+    float: left;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 12px;
+    margin-left: 30px;
+}
+#main-nav a:link, #main-nav a:active, #main-nav a:visited, #main-nav a:hover
+{
+    color: #8A8A8A;
+    text-decoration: none;
+    font-family: "Arial" ,sans-serif;
+    font-weight: bold;
+}
+#main-nav a:hover
+{
+    text-decoration: none;
+    color: black;
+}
+#main-nav li a.current
+{
+    color: black;
+    text-decoration: none;
+    font-family: "Arial" ,sans-serif;
+    font-weight: bold;
+}
+
+#main-nav ul li.home
+{
+    display: none;
+}
+.clearfix:after
+{
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+.clearfix
+{
+    display: inline-block;
+}
+
+html[xmlns] .clearfix
+{
+    display: block;
+}
+
+* html .clearfix
+{
+    height: 1%;
+}
+/** global styles stuff **/
+p, ul, li, input, textarea, select
+{
+    color: #303030;  /*was   #5A5A5A */
+    font-family: "Arial", sans-serif;
+    font-size: 11px
+}
+
+#main-nav a:link, #main-nav a:active, #main-nav a:visited, #main-nav a:hover
+{
+    color: #5A5A5A;
+}
+
+.news-item .title a:link, .news-item .title a:active, .news-item .title a:visited, .news-item .title a:hover, .source
+{
+    color: #5A5A5A;
+}
+
+.ui-widget-content a, a, a:link, a:active, a:visited, a:hover
+{
+    color: #582d1f;
+}
+
+#inside-nav a:link, #inside-nav a:active, #inside-nav a:visited, #minsideain-nav a:hover
+{
+    color: #582d1f;
+}
+
+#main-nav li a:hover, #main-nav li a.current
+{
+    color: #582d1f;
+}
+
+
+/** HOME PAGE **/
+
+.testimonials span.name, .testimonials span.title, .testimonials span.company
+{
+    color: #582d1f; /* the brown color*/
+    font-family: "Arial" ,sans-serif;
+}
+
+.testimonials span.company
+{
+    padding-left: 28px;
+}
+
+#faqs a
+{
+    color: #582d1f;
+}
+
+#faqs p a
+{
+    font-size: 14px;
+}
+
+#info ul, #info ol
+{
+    width: 255px;
+}
+
+#info li
+{
+    background: none;
+}
+
+#info ul.client-list
+{
+    display: none;
+    padding-left: 46px;
+    width: 210px;
+    list-style-type: none;
+}
+
+#info .client-list li
+{
+    padding-left: 0;
+    display: block;
+    position: relative;
+}
+
+#info li.client
+{
+    color: #582D1F;
+}
+
+#info li.client span.check
+{
+    background: transparent url('../../images/lawyerstravel/checkmark.png') no-repeat left center;
+    position: absolute;
+    top: 0;
+    left: -46px;
+    display: block;
+    width: 16px;
+    height: 17px;
+}
+
+#info li span.number
+{
+    position: absolute;
+    top: 0;
+    left: -22px;
+    display: block;
+    width: 16px;
+    height: 17px;
+}
+
+#info li.no-100
+{
+    padding-left: 5px;
+}
+
+
+#info li.faqs
+{
+    height: 37px;
+    background: none;
+}
+
+#info li.benefits
+{
+    width: 80px;
+    height: 37px;
+    background: none;
+}
+
+#info li.industries
+{
+    width: 85px;
+    height: 37px;
+    background: none;
+}
+
+#firm-join-link
+{
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#right .selling-point
+{
+    margin-top: 24px;
+}
+
+
+#right .selling-point h2
+{
+    margin-top: 0;
+}
+
+#contact-form .submit-button, #resources-fields .submit-button, #trip-alerts .submit-button
+{
+    height: 28px;
+    width: 80px;
+}
+
+button, .submit-button, input.submit-button
+{
+    background: url("../../images/lawyerstravel/buttons/btn_submit_sprite.png") no-repeat scroll left top transparent;
+    border: 0 none;
+    cursor: pointer;
+    height: 28px;
+    width: 80px;
+}
+
+button:hover, .submit-button:hover, input.submit-button:hover
+{
+    background: url("../../images/lawyerstravel/buttons/btn_submit_sprite.png") no-repeat scroll left -27px transparent;
+}
+#contact-us #feature-photo, #contact-thank-you #feature-photo
+{
+    display: none;
+}
+
+.callout
+{
+    margin-bottom: 15px;
+}
+
+.callout img
+{
+    float: left;
+    margin-right: 22px;
+}
+/*///////////////////////////////////////////////////////////////////////////*/
+/* ////////////////////////////// resets .css  //////////////////////////////*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td
+{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+body
+{
+    line-height: 1;
+}
+ol, ul
+{
+    list-style: none;
+}
+blockquote, q
+{
+    quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after
+{
+    content: '';
+    content: none;
+}
+
+/* remember to define focus styles! */
+:focus
+{
+    outline: none;
+}
+
+/* remember to highlight inserts somehow! */
+ins
+{
+    text-decoration: none;
+}
+del
+{
+    text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table
+{
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+/* ////////////////////////////// resets .css  //////////////////////////////*/
+/*///////////////////////////////////////////////////////////////////////////*/
+/* ////////////////////////////// social media .css  //////////////////////////////*/
+#social-media
+{
+    margin-right: 5px;
+    float: right;
+    font-size: 10px;
+    font-family: "Arial" ,sans-serf;
+}
+#social-media span
+{
+    display: inline-block;
+    float: left;
+    height: 16px;
+    line-height: 16px;
+}
+.social-media-icon
+{
+    width: 16px;
+    height: 16px;
+    float: left;
+    margin-left: 5px;
+}
+.facebook-icon
+{
+    background: transparent url('../Images/facebook-icon.png') no-repeat center center;
+}
+.linkedin-icon
+{
+    background: transparent url('../Images/linkedin-icon.png') no-repeat center center;
+}
+.twitter-icon
+{
+    background: transparent url('../Images/twitter-icon.png') no-repeat center center;
+}
+.logginWelcome
+{
+    padding-left:60px;
+    margin-right: 5px;
+    float: right;
+    font-size: 10px;
+    font-family: "Arial" ,sans-serf;
+}
+.logginWelcome span
+{
+    display: inline-block;
+    float: left;
+    height: 16px;
+    line-height: 16px;
+}
+/* ////////////////////////////// tabs and container .css  //////////////////////////////*/
+.ContainersFormTop
+{
+    background: transparent url('../Images/container_top.png') no-repeat center center;
+    height: 38px;
+    width: 933px;
+}
+.ContainersFormContent
+{
+    background: transparent url('../Images/container_content.png') repeat-y;
+    width: 933px;
+}
+.ContainersFormBottom
+{
+    background: transparent url('../Images/container_bottom.png') no-repeat center center;
+    height: 33px;
+    width: 933px;
+}
+.ContainerContent
+{
+    width: 92%;
+    margin-left: 38px;
+    margin-right: 15px;
+    font-family: 'FuturaW01-MediumCondens',arial,helvetica,clean,sans-serif;
+    font-size: 11px;
+    font-weight: normal;
+    line-height: 18px;
+    color: #1d1d1d;
+}
+.RadTabStrip
+{
+    padding-left: 10px !important;
+}
+.OvationTab
+{
+    background: url('../Images/tab_redesign.png') no-repeat 0 100% !important;
+    border: 0 !important;
+    font-size: 18px !important;
+    font-family: "LTC_twentienth_Century_MD" !important;
+    height: 30px;
+    line-height: 1.9;
+    margin-top:3px;
+}
+.tabhover
+{
+    background: url('../Images/tabhoverReDesign.png') no-repeat 0 100% !important;
+}
+.tabselected
+{
+    background: url('../Images/tabselected.png') no-repeat 0 100% !important;
+}
+/* ////////////////////////////// social media .css  //////////////////////////////*/
+/*////////////////////////////// Login page ///////////////////////////////////////*/
+.editor-field input
+{
+    float: left;
+    width: 300px;
+    background: #fff;
+    border: solid 1px #cecece;
+    padding: 3px;
+}
+.editor-field
+{
+    height: 35px;
+    clear: both;
+    font-family: "LTC_twentienth_Century_MD";
+    font-size: 18px;
+}
+
+.editor-checkbox
+{
+    clear: both;
+    padding-top: 20px;
+    font-family: "LTC_twentienth_Century_MD";
+    font-size: 18px;
+}
+#progressTextHotelInfo, #progressbarAmmen, #progressBarTxtMarketingPackages, #progressBarTxtElectronicSig
+{
+   font-family: "LTC_twentienth_Century_MD";
+   font-size: 12px;
+   text-align: left;
+}
+#progressBarTxtRFPForm
+{
+   font-family: "LTC_twentienth_Century_MD";
+   font-size: 12px;
+   text-align: right;
+}
+.submit-btn
+{
+    margin-top: 20px;
+    text-align: center;
+    width: 150px;
+    background: #C7C7C7;
+    clear: both;
+    display: block;
+    color: #000;
+    border: none;
+    padding: 10px 0px;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-family: "LTC_twentienth_Century_MD";
+    font-size: 18px;
+}
+
+.submit-btn:hover
+{
+    background: #B2A978;
+    cursor: pointer;
+}
+label
+{
+    float: left;
+    width: 150px;
+    font-size: 14px;
+    float: left;
+    letter-spacing: 1px;
+    line-height: 1.2;
+}
+#HotelClientLogin_UserNameval
+{
+    margin-left: 10px;
+    font-family: "LTC_twentienth_Century_MD";
+    font-size: 14px;
+}
+#HotelClientLogin_passwordVal
+{
+    margin-left: 10px;
+    font-family: "LTC_twentienth_Century_MD";
+    font-size: 14px;
+}
+#HotelClientLogin_HIDVal
+{
+    margin-left: 10px;
+    font-family: "LTC_twentienth_Century_MD";
+    font-size: 14px;
+}
+/*////////////////////////////// Login page ///////////////////////////////////////*/
+/*////////////////////////////// Contact page ///////////////////////////////////////*/
+#questions
+{
+    font-family: "LTC_twentienth_Century_MD";
+    font-size: 14px;
+}
+#peopleContact
+{
+    list-style: none;
+    width: 750px;
+    min-height: 100%;
+}
+#peopleContact li
+{
+    list-style: none;
+    width: 370px;
+    display: inline-block;
+    height: 100%;
+    padding: 0 0 0 0;
+    margin: 6px 0 0 0;
+}
+
+/*////////////////////////////// Contact page ///////////////////////////////////////*/
+/*////////////////////////////// Hotel Registration page ///////////////////////////////////////*/
+
+/*/// Hotel Registration page form validators ///*/
+#HnameVal
+{
+    margin-left: 10px;
+    font-family: "LTC_twentienth_Century_MD";
+    font-size: 14px;
+}
+#HemailBlankval
+{
+    margin-left: 10px;
+    font-family: "LTC_twentienth_Century_MD";
+    font-size: 14px;
+}
+#HemailRegexVal
+{
+    margin-left: 10px;
+    font-family: "LTC_twentienth_Century_MD";
+    font-size: 14px;
+}
+#HotelNameVal
+{
+    margin-left: 10px;
+    font-family: "LTC_twentienth_Century_MD";
+    font-size: 14px;
+}
+#HusernameVal
+{
+    margin-left: 10px;
+    font-family: "LTC_twentienth_Century_MD";
+    font-size: 14px;
+}
+#HpasswordVal
+{
+    margin-left: 10px;
+    font-family: "LTC_twentienth_Century_MD";
+    font-size: 14px;
+}
+#HpasswordVal_Length
+{
+    margin-left: 10px;
+    font-family: "LTC_twentienth_Century_MD";
+    font-size: 14px;
+}
+#NewHotlelRegPW_Confirm_Val, #NewHotlelRegPW_Confirm_Val_compare, #OvationForGotPassword_UserNameContainerID_UserNameval
+{
+    margin-left: 10px;
+    font-family: "LTC_twentienth_Century_MD";
+    font-size: 14px; 
+}
+
+/*/// Hotel Registration page form validators ///*/
+/*////////////////////////////// Hotel Registration page ///////////////////////////////////////*/
+
+/*////////////////////////////// Ovation RFP form - hotel info tab ///////////////////////////////////////*/
+
+.Global_RFP_form_colOne {
+ margin-left:60px;
+ min-height:100%;
+ width:750px;
+}
+.Global_RFP_form_colOne label
+{
+ margin-top: .43em;
+ display: block;
+ width: 160px;
+ font-size: 11px;
+ letter-spacing: 1px;
+ line-height: 1.4;
+}
+.Global_RFP_form_colOne input
+{
+ 
+ margin-top: .43em;
+ display: block;
+ width: 150px;
+ background: #fff;
+ border: solid 1px #cecece;
+ padding: 2px;
+ 
+}
+.Global_RFP_form_colOne select
+{
+ 
+ margin-top: .43em;
+ display: block;
+ width: 178px;
+ background: #EFEFEF;
+ border: solid 1px #cecece;
+ padding: 2px;
+ 
+}
+.Global_RFP_form_colTwo 
+{
+ padding-left: 495px;
+ min-height:100%;
+}
+.Global_RFP_form_colTwo label 
+{
+  margin-top: .43em;
+  display: block;
+  width: 150px;
+  font-size: 11px;
+  letter-spacing: 1px;
+  line-height: 1.9;
+}
+.Global_RFP_form_colTwo input {
+  
+  margin-top: .43em;
+  display: block;
+  width: 150px;
+  background: #fff;
+  border: solid 1px #cecece;
+  padding: 2px;
+}
+
+.Hotel_Column_AAArateing 
+{
+ width:750px;
+ margin-left:60px;
+ min-height:100%;
+}
+.HotelInfo_colOne_B 
+{
+ width:750px;
+ margin-left:60px;
+ min-height:100%;
+}
+.HotelInfo_colOne_B label
+{
+ margin-top: .43em;
+ display: block;
+ width: 450px;
+ font-size: 11px;
+ letter-spacing: 1px;
+ line-height: 1.3;
+}
+.HotelInfo_colOne_B textarea
+{
+ 
+ margin-top: .43em;
+ display: block;
+ padding: 2px;
+ 
+}
+.rates2014_LeftColumn
+{
+   float: left;
+   margin-left:20px;
+   min-height:100%;   
+}
+.rates2014_LeftColumn label
+{
+   margin-top: .43em;
+   display: block;
+   width: 650px;
+   font-size: 11px;
+   letter-spacing: 1px;
+   line-height: 1.3;   
+}
+.rates2014_LeftColumn textarea
+{
+   margin-top: .43em;
+   display: block;
+   font-size: 11px;
+   letter-spacing: 1px;
+   line-height: 1.3;   
+}
+.rates2014_LeftColumn_B
+{
+   float: left;
+   margin-left:20px;
+   min-height:100%; 
+}
+.rates2014_LeftColumn_B label
+{
+   margin-top: .43em;
+   display: block;
+   width: 650px;
+   font-size: 11px;
+   letter-spacing: 1px;
+   line-height: 1.3;   
+}
+.rates2014_LeftColumn_B input
+{
+  margin-top: .43em;
+  display: block;
+  width: 250px;
+  background: #fff;
+  border: solid 1px #cecece;
+  padding: 2px;  
+}
+.rates2014_LeftColumn_C
+{
+   width:750px;
+   margin-left:20px;
+   min-height:100%; 
+}
+.rates2014_LeftColumn_D
+{
+   width:750px;
+   margin-left:20px;
+   min-height:100%; 
+}
+.rates2014_LeftColumn_D label
+{
+   margin-top: .43em;
+   display: block;
+   width: 200px;
+   font-size: 11px;
+   letter-spacing: 1px;
+   line-height: 1.3;   
+}
+.rates2014_LeftColumn_D input
+{
+  margin-top: .43em;
+  display: block;
+  width: 150px;
+  padding: 2px;  
+}
+.rates2014_RightColumn_D
+{
+   padding-left: 310px;
+}
+.rates2014_LeftColumn_E
+{
+   width:750px;
+   margin-left:20px;
+   min-height:100%;  
+}
+.rates2014_LeftColumn_E label
+{
+   margin-top: .43em;
+   display: block;
+   width: 450px;
+   font-size: 11px;
+   letter-spacing: 1px;
+   line-height: 1.3;
+      
+}
+.rates2014_LeftColumn_E input
+{
+ margin-top: .43em;
+ display: block;
+ width: 150px;
+ background: #fff;
+ border: solid 1px #cecece;
+ padding: 2px; 
+      
+}
+.rates2014_LeftColumn_F
+{
+   width:750px;
+   margin-left:20px;
+   min-height:100%;  
+}
+.rates2014_LeftColumn_F label
+{
+   margin-top: .43em;
+   display: block;
+   width: 150px;
+   font-size: 11px;
+   letter-spacing: 1px;
+   line-height: 1.3;   
+}
+.rates2014_LeftColumn_F input
+{
+ margin-top: .43em;
+ display: inline-block;
+ width: 150px;
+ background: #fff;
+ border: solid 1px #cecece;
+ padding: 2px;   
+}
+.rates2014_leftColumn_G
+{
+   width:750px;
+   margin-left:20px;
+   min-height:100%;
+}
+.rates2014_leftColumn_G label
+{
+    margin-top: .43em;
+   display: block;
+   width: 200px;
+   font-size: 11px;
+   letter-spacing: 1px;
+   line-height: 1.3;
+}
+.rates2014_leftColumn_G input
+{
+ margin-top: .43em;
+ display: block;
+ width: 250px;
+ background: #fff;
+ border: solid 1px #cecece;
+ padding: 2px; 
+}
+.rates2014_leftColumn_H
+{
+   width:750px;
+   margin-left:20px;
+   min-height:100%;
+}
+.rates2014_leftColumn_H label
+{
+   margin-top: .43em;
+   display: block;
+   width: 240px;
+   font-size: 11px;
+   letter-spacing: 1px;
+   line-height: 1.3;
+}
+.rates2014_leftColumn_H input
+{
+ margin-top: .43em;
+ display: block;
+ width: 50px;
+ background: #fff;
+ border: solid 1px #cecece;
+ padding: 2px; 
+}
+.rates2014_leftColumn_I
+{
+   width:750px;
+   margin-left:20px;
+   min-height:100%;
+}
+.rates2014_leftColumn_I label
+{
+    margin-top: .43em;
+   display: block;
+   width: 270px;
+   font-size: 11px;
+   letter-spacing: 1px;
+   line-height: 1.3;
+}
+.rates2014_leftColumn_I input
+{
+ margin-top: .43em;
+ display: block;
+ width: 300px;
+ background: #fff;
+ border: solid 1px #cecece;
+ padding: 2px; 
+}
+.rates2014_leftColumn_J
+{
+   width:800px;
+   margin-left:20px;
+   min-height:100%;
+}
+.rates2014_leftColumn_J input
+{
+ margin-top: .43em;
+ display: inline-block;
+ width: 100px;
+ background: #fff;
+ border: solid 1px #cecece;
+ padding: 2px; 
+}
+.rates2014_leftColumn_K
+{
+   width:800px;
+   margin-left:10px;
+   min-height:100%;
+}
+.rates2014_leftColumn_K input
+{
+ margin-top: .43em;
+ display: inline-block;
+ width: 2px;
+ background: #fff;
+ border: solid 1px #cecece;
+ padding: 2px; 
+}
+.corpRespons
+{
+   width:750px;
+   margin-left:60px;
+   min-height:100%;  
+}
+.corpRespons label
+{
+   margin-top: .43em;
+   display: block;
+   width: 700px;
+   font-size: 11px;
+   letter-spacing: 1px;
+   line-height: 1.3;  
+}
+.corpRespons input
+{
+ margin-top: .43em;
+ display: block;
+ width: 150px;
+ background: #fff;
+ border: solid 1px #cecece;
+ padding: 2px;   
+}
+.corpResponsTwo
+{
+   width:750px;
+   margin-left:60px;
+   min-height:100%;  
+}
+.corpResponsTwo label
+{
+   margin-top: .43em;
+   display: block;
+   width: 375px;
+   font-size: 11px;
+   letter-spacing: 1px;
+   line-height: 1.3;  
+}
+.Ammenities
+{
+   margin-top:5px;
+   width:750px;
+   margin-left:20px;
+   min-height:100%;  
+}
+.Ammenities label
+{
+   margin-top: .43em;
+   display: block;
+   width: 250px;
+   font-size: 11px;
+   letter-spacing: 1px;
+   line-height: 1.3;    
+}
+.Ammenities_B
+{
+   margin-top:5px;
+   width:750px;
+   margin-left:20px;
+   min-height:100%;  
+}
+.Ammenities_B label
+{
+   margin-top: .43em;
+   display: block;
+   width: 400px;
+   font-size: 11px;
+   letter-spacing: 1px;
+   line-height: 1.3;    
+}
+.Ammenities_C
+{
+   margin-top:5px;
+   width:750px;
+   margin-left:20px;
+   min-height:100%;  
+}
+.Ammenities_D
+{
+   width:750px;
+   margin-left:20px;
+   min-height:100%;  
+}
+.Ammenities_D label
+{
+   margin-top: .43em;
+   display: block;
+   width: 410px;
+   font-size: 11px;
+   letter-spacing: 1px;
+   line-height: 1.3;  
+}
+.marketpacks
+{
+    background-color:#F1F0ED; 
+    /*/// #F7F7F7 ///*/
+    border: solid 1px ;
+    margin-left:0px;
+    width:865px;
+    margin-right:10px;
+}
+.marketpacks td
+{
+    border: solid 4px #FFFFFF;
+    padding:2px;
+}
+#rateloadingBTN
+{
+    width:265px;
+    height:73px;
+    background-color:#C7C7C7;
+    float:right;
+}
+#rateloadingBTN a
+{
+    text-align:center;
+    display:block;
+    font-family: "LTC_twentienth_Century_MD";
+    font-size:16px;
+    cursor:pointer;
+
+}
+#rateloadingBTN:hover
+{
+    background: #B2A978;
+    cursor: pointer;
+}
+#rateloadingText
+{
+    margin-left:60px;
+}
+.paymentInfo {
+ margin-left:20px;
+ min-height:100%;
+ width:750px;
+}
+.paymentInfo label
+{
+ margin-top: .43em;
+ display: block;
+ width: 150px;
+ font-size: 11px;
+ letter-spacing: 1px;
+ line-height: 1.3;
+}
+.paymentInfo input
+{
+ 
+ margin-top: .43em;
+ display: block;
+ width: 150px;
+ background: #fff;
+ border: solid 1px #cecece;
+ padding: 2px;
+ 
+}
+.paymentInfo select
+{
+ 
+ margin-top: .43em;
+ display: block;
+ width: 178px;
+ background: #EFEFEF;
+ border: solid 1px #cecece;
+ padding: 2px;
+ 
+}
+.electronicSig {
+ margin-left:20px;
+ min-height:100%;
+ width:750px;
+}
+.electronicSig label
+{
+ margin-top: .43em;
+ display: block;
+ width: 450px;
+ font-size: 14px;
+ letter-spacing: 1px;
+ line-height: 1.3;
+}
+.electronicSig input
+{
+ 
+ margin-top: .43em;
+ display: block;
+ width: 300px;
+ background: #fff;
+ border: solid 1px #cecece;
+ padding: 2px;
+ 
+}
+
+.RBL 
+{
+    height:25px;
+}
+.RBL label
+{
+    clear: right;
+    margin-right: 4px;   
+    white-space: nowrap;
+    line-height: 20px;
+    vertical-align: middle;
+    font-size: 11px;
+    letter-spacing: 1px;
+    line-height: 1.3; 
+    width:40px;
+}
+
+.RBL INPUT[type="radio"]
+{ 
+    float: left;
+    width: 20px;
+    padding: 0;
+    vertical-align: middle;  
+}
+.RBL_two 
+{
+    height:25px;
+}
+.RBL_two label
+{
+    clear: right;
+    margin-right: 4px;   
+    white-space: nowrap;
+    line-height: 20px;
+    vertical-align: middle;
+    font-size: 11px;
+    letter-spacing: 1px;
+    line-height: 1.3; 
+    width:80px;
+}
+
+.RBL_two INPUT[type="radio"]
+{ 
+    float: left;
+    width: 20px;
+    padding: 0;
+    vertical-align: middle;  
+}
+.RBL_checkbox
+{
+    height:25px;
+}
+.RBL_checkbox label
+{
+    clear: right;
+    margin-right: 4px;   
+    white-space: nowrap;
+    line-height: 20px;
+    vertical-align: middle;
+    font-size: 11px;
+    letter-spacing: 1px;
+    line-height: 1.3; 
+    width:100px;
+}
+
+.RBL_checkbox INPUT[type="checkbox"]
+{ 
+    float: left;
+    width: 20px;
+    padding: 0;
+    vertical-align: middle;  
+}
+.RBL_checkbox_B
+{
+    height:25px;
+}
+.RBL_checkbox_B label
+{
+    clear: right;
+    margin-right: 4px;   
+    white-space: nowrap;
+    line-height: 25px;
+    vertical-align: middle;
+    font-size: 11px;
+    letter-spacing: 1px;
+    line-height: 1.6; 
+    width:170px;
+}
+
+.RBL_checkbox_B INPUT[type="checkbox"]
+{ 
+    float: left;
+    width: 20px;
+    padding: 0;
+    vertical-align: middle;  
+}
+.electronicSig-btn
+{
+    margin-top: 20px;
+    text-align: center;
+    width: 513px;
+    height:55px;
+    clear: both;
+    display: block;
+    background-image:url(../Images/electronicSigUp.png); background-repeat: no-repeat;
+    color: #000;
+    border: none;
+    padding: 10px 0px;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-family: "LTC_twentienth_Century_MD";
+    font-size: 18px;
+
+}
+.electronicSig-btn:hover
+{
+    background-image:url(../Images/electronicSigDown.png); background-repeat: no-repeat;
+    cursor: pointer;
+}
+.formsections-btn
+{
+    margin-top: 20px;
+    text-align: center;
+    width: 350px;
+    height:54px;
+    background-image:url(../Images/formsGenUp.png); background-repeat: no-repeat;
+    clear: both;
+    display: block;
+    color: #000;
+    border: none;
+    padding: 10px 0px;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-family: "LTC_twentienth_Century_MD";
+    font-size: 17px;
+
+}
+
+.formsections-btn:hover
+{
+    background-image:url(../Images/formsGenDown.png); background-repeat: no-repeat;
+    cursor: pointer;
+}
+.AddroomCatDateRate-btn
+{
+    margin-top: 5px;
+    text-align: center;
+    width: 280px;
+    clear: both;
+    display: block;
+    color: #000;
+    padding: 1px 0px 1px;
+    cursor: pointer;
+    font-family: "LTC_twentienth_Century_MD";
+    font-size: 12px;
+    text-decoration: none;
+    border: solid 1px Gray;
+    background-color: #FFFFFF;
+}
+
+.AddroomCatDateRate-btn:hover
+{
+    background: #C7C7C7;
+    cursor: pointer;
+}
+.DeleteroomCatDateRate-btn
+{
+    margin-top: 0px;
+    text-align: center;
+    width: 280px;
+    clear: both;
+    display: block;
+    color: #000;
+    padding: 0px 0px 2px;
+    cursor: pointer;
+    font-family: "LTC_twentienth_Century_MD";
+    font-size: 12px;
+    text-decoration: none;
+    border: solid 1px Gray;
+    background-color: #FFFFFF;
+}
+
+.DeleteroomCatDateRate-btn:hover
+{
+    background: #C7C7C7;
+    cursor: pointer;
+}
+.roomCategory-btn
+{
+    margin-top: 20px;
+    text-align: center;
+    width: 340px;
+    clear: both;
+    display: block;
+    color: #000;
+    border: none;
+    padding: 10px 0px;
+    cursor: pointer;
+    font-family: "LTC_twentienth_Century_MD";
+    font-size: 14px;
+}
+
+.roomCategory-btn:hover
+{
+    background: #C7C7C7;
+    cursor: pointer;
+}
+.Deletecategory-btn
+{
+    text-align: center;
+    clear: both;
+    width:200px;
+    display: inline-block;
+    color: #000;
+    border: solid 1px #000;
+    padding: 1px 3px 0px 2px;
+    cursor: pointer;
+    font-family: "LTC_twentienth_Century_MD";
+    font-size: 14px;
+    text-decoration: none;
+    background-color: #FFF;
+    float:right;
+}
+.Deletecategory-btn:hover
+{
+    background: #CFCFCF;
+    cursor: pointer;
+}
+#projectionsImage
+{
+    background: transparent url('../Images/2014projections_Link.png') no-repeat left center;
+    width:675px;
+    height:224px;
+    padding-left:200px;
+}
+
+
+
+
+/*////////////////////////////// Ovation RFP form - hotel info tab ///////////////////////////////////////*/
+
+/*////////////////////////////// Ovation RFP form - global button ///////////////////////////////////////*/
+.spalshBtn
+{
+    padding-left:1px;  
+}
+.HoteltabbedFormsBtn
+{
+    padding-left:490px;  
+}
+.HoteltabbedFormsBtn_marketingPacks
+{
+    padding-left:490px;  
+}
+.HoteltabbedFormsBtn_ElectronicSig
+{
+    padding-left:20px; 
+}
+/*////////////////////////////// Ovation RFP form - global button ///////////////////////////////////////*/
+.SiteMapLinks
+{
+    padding-left:20px;
+    font-family: "LTC_twentienth_Century_MD";
+    font-size: 14px;
+    
+}
+.riTextBox
+{
+  margin-top: .43em !important;
+  display: block !important;
+  width: 156px !important;
+  border: solid 1px #cecece !important;
+  color: #303030 !important;
+  padding: 2px !important;
+  font-family: "Arial", Sans-Serif !important;
+  font-size: 11px !important; 
+  
+}
+.span.riSingle 
+{
+  width:0px !important;
+  height:10px !important;
+  /*padding-top:25px !important;*/
+ /* padding-bottom:25px !important;*/
+}
+.errors 
+{
+ border: 2px solid #C2B6AB;
+ background-color: #EFEBE7;
+ font-size: 14px;
+ padding: 4px 4px 4px 4px;
+  /*background-color:#F4F0EC;
+ color: Black;
+ margin: 5px 0px;
+ padding: 15px;
+ font-size:14px;
+*/
+}
+.RFPerrors
+{
+    border: 1px solid #582D1F !important;
+
+}
+.RBLError
+{
+  border: 0px !important;
+}
+
+
+#validation_dialog_marketing, #Validation_dialog_electronicSig
+{
+    padding-left:1px;
+}
+#hotelchoiceLogo
+{
+  margin-left: 325px; 
+  font-family: "LTC_twentienth_Century_MD";
+  font-size: 20px;
+  padding-bottom:20px;
+   
+}
+#hotelchoicechoices
+{
+   margin-left: 140px;
+   width:600px;
+}
+#hotelchoicechoices_listOne
+{
+    float:left;
+    text-align:center;
+    font-family: "LTC_twentienth_Century_MD";
+    font-size: 20px;
+    cursor: pointer;
+    display: block;
+    background: #C7C7C7;
+    text-decoration:none;
+    padding: 10px 0px 10px;
+    width: 250px;
+    
+}
+#hotelchoicechoices_listtwo
+{
+    float:right;
+    text-align:center;
+    font-family: "LTC_twentienth_Century_MD";
+    font-size: 20px;
+    cursor: pointer;
+    display: block;
+    background: #C7C7C7;
+    text-decoration:none;
+    padding: 10px 0px 10px;
+    width: 250px;
+}
+#hotelchoicechoices_listOne:hover
+{
+    background: #B2A978;
+    cursor: pointer;
+}
+#hotelchoicechoices_listtwo:hover
+{
+    background: #B2A978;
+    cursor: pointer;
+}
+#MobileStaRate_Val, #AAAating_Val
+{
+    margin-left:30px;
+    font-family: "LTC_twentienth_Century_MD";
+    font-size: 14px;
+    
+}
+#RadioButtonList_avtiveRecycle_Val, #RadioButtonList_Property_Responsible_Cleaners_Val, #RadioButtonList_Property_WaterConserve_Val
+{
+    margin-left:2px;
+    font-family: "LTC_twentienth_Century_MD";
+    font-size: 14px;
+}
+.marketingpacksError
+{
+
+} 
+.marketingpacksError ul
+{
+     margin: 0;
+     padding: 0;
+     margin-left: 0;
+     list-style: none;
+ 
+}
+.RadPicker .riTextBox 
+{
+    width: 60px !important;
+}
+#Sales_Contact_Email_Val_Valid
+{
+    font-size:11px; 
+    display: block;
+}
+#startDateText
+{
+    color: #303030;
+    font-family: "Arial", sans-serif;
+    font-size: 11px;
+    width:65px;
+    padding-top:10px;
+    padding-left:18px;
+    display:inline-block;
+}
+#endDateText
+{
+    color: #303030;
+    font-family: "Arial", sans-serif;
+    font-size: 11px;
+    width:58px;
+    padding-top:10px;
+    padding-left:70px;
+    float:left;
+    display:inline-block;
+}
+.innerreapterRoomCat
+{
+    color: #303030;
+    font-family: "Arial", sans-serif;
+    font-size: 11px;
+    width:100px;
+    padding-top:10px;
+    padding-left:70px;
+    display:inline-block;
+}
+.innerreapterRoomCatExtraEntry
+{
+    color: #303030;
+    font-family: "Arial", sans-serif;
+    font-size: 11px;
+    width:100px;
+    padding-top:5px;
+    padding-left:339px;
+    display:inline-block;
+}
+.innerreapterRoomRate
+{
+    color: #303030;
+    font-family: "Arial", sans-serif;
+    font-size: 11px;
+    width:30px;
+    padding-top:10px;
+    padding-left:20px;
+    padding-right:5px;
+    display:inline-block;
+}
+.enddateError
+{
+    border: 1px solid #582D1F !important;
+}
+.dropdownAmmeneties
+{
+ margin-top: .43em;
+ display: block;
+ width: 178px;
+ background: #EFEFEF;
+ border: solid 1px #cecece;
+ background-color: #EFEBE7;
+ padding: 2px; 
+}
+.MoreInfoBTN
+{
+    width:195px;
+    height:66px;
+    background-image:url(../Images/mireinfoUp.png); background-repeat: no-repeat;
+    float:right;
+}
+.MoreInfoBTN a
+{
+    text-align:center;
+    display:block;
+    font-family: "LTC_twentienth_Century_MD";
+    font-size:20px;
+    cursor:pointer;
+
+}
+.MoreInfoBTN:hover
+{
+    background-image:url(../Images/mireinfoDown.png); background-repeat: no-repeat;
+    cursor: pointer;
+}
+.excel-btn
+{
+    margin-right:600px;
+    margin-top: 0px;
+    text-align: center;
+    width: 450px;
+    height:55px;
+    background-image:url(../Images/excelbuttonBGup.png); background-repeat: no-repeat;
+    clear: both;
+    display: block;
+    color: #000;
+    border: none;
+    padding: 10px 0px;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-family: "LTC_twentienth_Century_MD";
+    font-size: 17px;
+}
+
+.excel-btn:hover
+{
+    cursor: pointer;
+    background-image:url(../Images/excelbuttonBGDown.png); background-repeat: no-repeat;
+}
+.RBL_checkbox_terms
+{
+    height:25px;
+    
+}
+.RBL_checkbox_terms label
+{
+    clear: right;
+    margin-right: 8px;   
+    white-space: nowrap;
+    line-height: 20px;
+    vertical-align: middle;
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 1.3; 
+    width:200px;
+}
+
+.RBL_checkbox_terms INPUT[type="checkbox"]
+{ 
+    margin-left:20px;
+    float: left;
+    width: 20px;
+    padding: 0;
+    vertical-align: middle;  
+}
+
+
+
+
+
+ 
+
+
