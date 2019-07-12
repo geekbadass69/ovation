@@ -1,0 +1,10 @@
+﻿Hello <%UserName%> you forgot your login information
+
+Your UserName is: <%UserName%>
+
+Your Password is: <%password%>
+
+
+Please login by going to: 
+
+http://dev.ovationtravel.com/OvationRFP/login.aspx
