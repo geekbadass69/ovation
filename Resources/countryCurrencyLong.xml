@@ -1,0 +1,459 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Currency>
+  <CurrencyRegion>
+    <ID>ALL</ID>
+    <Name>Albania Lek - ALL</Name>
+    </CurrencyRegion>
+  <CurrencyRegion>
+    <ID>AFN</ID>
+    <Name>Afghanistan Afghani - AFN</Name>
+  </CurrencyRegion>
+  <CurrencyRegion>
+    <ID>ARS</ID>
+    <Name>Argentina Peso - ARS</Name>
+  </CurrencyRegion>
+  <CurrencyRegion>
+    <ID>AWG</ID>
+    <Name>Aruba Guilder - AWG</Name>
+  </CurrencyRegion>
+  <CurrencyRegion>
+    <ID>AUD</ID>
+    <Name>Australia Dollar - AUD</Name>
+  </CurrencyRegion>
+  <CurrencyRegion>
+    <ID>AZN</ID>
+    <Name>Azerbaijan New Manat - AZN</Name>
+  </CurrencyRegion>
+  <CurrencyRegion>
+    <ID>BSD</ID>
+    <Name>Bahamas Dollar - BSD</Name>
+  </CurrencyRegion>
+  <CurrencyRegion>
+    <ID>BBD</ID>
+    <Name>Barbados Dollar - BBD</Name>
+  </CurrencyRegion>
+  <CurrencyRegion>
+    <ID>BYR</ID>
+    <Name>Belarus Ruble - BYR</Name>
+  </CurrencyRegion>
+  <CurrencyRegion>
+    <ID>BZD</ID>
+    <Name>Belize Dollar - BZD</Name>
+  </CurrencyRegion>
+  <CurrencyRegion>
+    <ID>BMD</ID>
+    <Name>Bermuda Dollar - BMD</Name>
+  </CurrencyRegion>
+  <CurrencyRegion>
+    <ID>BOB</ID>
+    <Name>Bolivia Boliviano - BOB</Name>
+  </CurrencyRegion>
+  <CurrencyRegion>
+    <ID>BAM</ID>
+    <Name>Bosnia and Herzegovina Convertible Marka - BAM</Name>
+  </CurrencyRegion>
+  <CurrencyRegion>
+    <ID>BWP</ID>
+    <Name>Botswana Pula - BWP</Name>
+  </CurrencyRegion>
+  <CurrencyRegion>
+    <ID>BGN</ID>
+    <Name>Bulgaria Lev -BGN</Name>
+  </CurrencyRegion>
+  <CurrencyRegion>
+    <ID>BRL</ID>
+    <Name>Brazil Real - BRL</Name>
+  </CurrencyRegion>
+  <CurrencyRegion>
+    <ID>BND</ID>
+    <Name>Brunei Darussalam Dollar - BND</Name>
+  </CurrencyRegion>
+  <CurrencyRegion>
+    <ID>KHR</ID>
+    <Name>Cambodia Riel - KHR</Name>
+  </CurrencyRegion>
+  <CurrencyRegion>
+    <ID>CAD</ID>
+    <Name>Canada Dollar - CAD</Name>
+  </CurrencyRegion>
+  <CurrencyRegion>
+    <ID>KYD</ID>
+    <Name>Cayman Islands Dollar - KYD</Name>
+  </CurrencyRegion>
+  <CurrencyRegion>
+    <ID>CLP</ID>
+    <Name>Chile Peso - CLP</Name>
+  </CurrencyRegion>
+  <CurrencyRegion>
+    <ID>CNY</ID>
+    <Name>China Yuan Renminbi - CNY</Name>
+  </CurrencyRegion>
+  <CurrencyRegion>
+    <ID>COP</ID>
+    <Name>Colombia Peso - COP</Name>
+  </CurrencyRegion>
+  <CurrencyRegion>
+    <ID>CRC</ID>
+    <Name>Costa Rica Colon - CRC</Name>
+  </CurrencyRegion>
+  <CurrencyRegion>
+    <ID>HRK</ID>
+    <Name>Croatia Kuna - HRK</Name>
+  </CurrencyRegion>
+  <CurrencyRegion>
+    <ID>CUP</ID>
+    <Name>Cuba Peso - CUP</Name>
+  </CurrencyRegion>
+  <CurrencyRegion>
+    <ID>CZK</ID>
+    <Name>Czech Republic Koruna - CZK</Name>
+  </CurrencyRegion>
+  <CurrencyRegion>
+    <ID>DKK</ID>
+    <Name>Denmark Krone - DKK</Name>
+  </CurrencyRegion>
+  <CurrencyRegion>
+    <ID>DOP</ID>
+    <Name>Dominican Republic Peso - DOP</Name>
+  </CurrencyRegion>
+  <CurrencyRegion>
+    <ID>XCD</ID>
+    <Name>East Caribbean Dollar - XCD</Name>
+  </CurrencyRegion>
+  <CurrencyRegion>
+    <ID>EGP</ID>
+    <Name>Egypt Pound - EGP</Name>
+  </CurrencyRegion>
+  <CurrencyRegion>
+    <ID>SVC</ID>
+    <Name>El Salvador Colon - SVC</Name>
+  </CurrencyRegion>
+  <CurrencyRegion>
+    <ID>EEK</ID>
+    <Name>Estonia Kroon - EEK</Name>
+  </CurrencyRegion>
+  <CurrencyRegion>
+    <ID>EUR</ID>
+    <Name>Euro Member Countries - EUR</Name>
+  </CurrencyRegion>
+  <CurrencyRegion>
+    <ID>FKP</ID>
+    <Name>Falkland Islands (Malvinas) Pound - FKP</Name>
+  </CurrencyRegion>
+  <CurrencyRegion>
+    <ID>FJD</ID>
+    <Name>Fiji Dollar - FJD</Name>
+  </CurrencyRegion>
+  <CurrencyRegion>
+    <ID>GHC</ID>
+    <Name>Ghana Cedis - GHC</Name>
+  </CurrencyRegion>
+  <CurrencyRegion>
+    <ID>GIP</ID>
+    <Name>Gibraltar Pound - GIP</Name>
+  </CurrencyRegion>
+  <CurrencyRegion>
+    <ID>GTQ</ID>
+    <Name>Guatemala Quetzal - GTQ</Name>
+  </CurrencyRegion>
+  <CurrencyRegion>
+    <ID>GGP</ID>
+    <Name>Guernsey Pound - GGP</Name>
+  </CurrencyRegion>
+  <CurrencyRegion>
+    <ID>GYD</ID>
+    <Name>Guyana Dollar - GYD</Name>
+  </CurrencyRegion>
+  <CurrencyRegion>
+    <ID>HNL</ID>
+    <Name>Honduras Lempira - HNL</Name>
+  </CurrencyRegion>
+  <CurrencyRegion>
+    <ID>HKD</ID>
+    <Name>Hong Kong Dollar - HKD</Name>
+  </CurrencyRegion>
+  <CurrencyRegion>
+    <ID>HUF</ID>
+    <Name>Hungary Forint - HUF</Name>
+  </CurrencyRegion>
+  <CurrencyRegion>
+    <ID>ISK</ID>
+    <Name>Iceland Krona - ISK</Name>
+  </CurrencyRegion>
+  <CurrencyRegion>
+    <ID>INR</ID>
+    <Name>India Rupee - INR</Name>
+  </CurrencyRegion>
+  <CurrencyRegion>
+    <ID>IDR</ID>
+    <Name>Indonesia Rupiah - IDR</Name>
+  </CurrencyRegion>
+  <CurrencyRegion>
+    <ID>IRR</ID>
+    <Name>Iran Rial - IRR</Name>
+  </CurrencyRegion>
+  <CurrencyRegion>
+    <ID>IMP</ID>
+    <Name>Isle of Man Pound - IMP</Name>
+  </CurrencyRegion>
+  <CurrencyRegion>
+    <ID>ILS</ID>
+    <Name>Israel Shekel - ILS</Name>
+  </CurrencyRegion>
+  <CurrencyRegion>
+    <ID>JMD</ID>
+    <Name>Jamaica Dollar - JMD</Name>
+  </CurrencyRegion>
+  <CurrencyRegion>
+    <ID>JPY</ID>
+    <Name>Japan Yen - JPY</Name>
+  </CurrencyRegion>
+  <CurrencyRegion>
+    <ID>JEP</ID>
+    <Name>Jersey Pound - JEP</Name>
+  </CurrencyRegion>
+  <CurrencyRegion>
+    <ID>KZT</ID>
+    <Name>Kazakhstan Tenge - KZT</Name>
+  </CurrencyRegion>
+  <CurrencyRegion>
+    <ID>KPW</ID>
+    <Name>Korea (North) Won - KPW</Name>
+  </CurrencyRegion>
+  <CurrencyRegion>
+    <ID>KRW</ID>
+    <Name>Korea (South) Won - KRW</Name>
+  </CurrencyRegion>
+  <CurrencyRegion>
+    <ID>KGS</ID>
+    <Name>Kyrgyzstan Som - KGS</Name>
+  </CurrencyRegion>
+  <CurrencyRegion>
+    <ID>LAK</ID>
+    <Name>Laos Kip - LAK</Name>
+  </CurrencyRegion>
+  <CurrencyRegion>
+    <ID>LVL</ID>
+    <Name>Latvia Lat - LVL</Name>
+  </CurrencyRegion>
+  <CurrencyRegion>
+    <ID>LBP</ID>
+    <Name>Lebanon Pound - LBP</Name>
+  </CurrencyRegion>
+  <CurrencyRegion>
+    <ID>LRD</ID>
+    <Name>Liberia Dollar - LRD</Name>
+  </CurrencyRegion>
+  <CurrencyRegion>
+    <ID>LTL</ID>
+    <Name>Lithuania Litas - LTL</Name>
+  </CurrencyRegion>
+  <CurrencyRegion>
+    <ID>MKD</ID>
+    <Name>Macedonia Denar - MKD</Name>
+  </CurrencyRegion>
+  <CurrencyRegion>
+    <ID>MYR</ID>
+    <Name>Malaysia Ringgit - MYR</Name>
+  </CurrencyRegion>
+  <CurrencyRegion>
+    <ID>MUR</ID>
+    <Name>Mauritius Rupee - MUR</Name>
+  </CurrencyRegion>
+  <CurrencyRegion>
+    <ID>MXN</ID>
+    <Name>Mexico Peso - MXN</Name>
+  </CurrencyRegion>
+  <CurrencyRegion>
+    <ID>MNT</ID>
+    <Name>Mongolia Tughrik - MNT</Name>
+  </CurrencyRegion>
+  <CurrencyRegion>
+    <ID>MZN</ID>
+    <Name>Mozambique Metical - MZN</Name>
+  </CurrencyRegion>
+  <CurrencyRegion>
+    <ID>NAD</ID>
+    <Name>Namibia Dollar - NAD</Name>
+  </CurrencyRegion>
+  <CurrencyRegion>
+    <ID>NPR</ID>
+    <Name>Nepal Rupee - NPR</Name>
+  </CurrencyRegion>
+  <CurrencyRegion>
+    <ID>ANG</ID>
+    <Name>Netherlands Antilles Guilder - ANG</Name>
+  </CurrencyRegion>
+  <CurrencyRegion>
+    <ID>NZD</ID>
+    <Name>New Zealand Dollar - NZD</Name>
+  </CurrencyRegion>
+  <CurrencyRegion>
+    <ID>NIO</ID>
+    <Name>Nicaragua Cordoba - NIO</Name>
+  </CurrencyRegion>
+  <CurrencyRegion>
+    <ID>NGN</ID>
+    <Name>Nigeria Naira - NGN</Name>
+  </CurrencyRegion>
+  <CurrencyRegion>
+    <ID>KPW</ID>
+    <Name>Korea (North) Won - KPW</Name>
+  </CurrencyRegion>
+  <CurrencyRegion>
+    <ID>NOK</ID>
+    <Name>Norway Krone - NOK</Name>
+  </CurrencyRegion>
+  <CurrencyRegion>
+    <ID>OMR</ID>
+    <Name>Oman Rial - OMR</Name>
+  </CurrencyRegion>
+  <CurrencyRegion>
+    <ID>PKR</ID>
+    <Name>Pakistan Rupee - PKR</Name>
+  </CurrencyRegion>
+  <CurrencyRegion>
+    <ID>PAB</ID>
+    <Name>Panama Balboa - PAB</Name>
+  </CurrencyRegion>
+  <CurrencyRegion>
+    <ID>PYG</ID>
+    <Name>Paraguay Guarani - PYG</Name>
+  </CurrencyRegion>
+  <CurrencyRegion>
+    <ID>PEN</ID>
+    <Name>Peru Nuevo Sol - PEN</Name>
+  </CurrencyRegion>
+  <CurrencyRegion>
+    <ID>PHP</ID>
+    <Name>Philippines Peso - PHP</Name>
+  </CurrencyRegion>
+  <CurrencyRegion>
+    <ID>PLN</ID>
+    <Name>Poland Zloty - PLN</Name>
+  </CurrencyRegion>
+  <CurrencyRegion>
+    <ID>QAR</ID>
+    <Name>Qatar Riyal - QAR</Name>
+  </CurrencyRegion>
+  <CurrencyRegion>
+    <ID>RON</ID>
+    <Name>Romania New Leu - RON</Name>
+  </CurrencyRegion>
+  <CurrencyRegion>
+    <ID>RUB</ID>
+    <Name>Russia Ruble - RUB</Name>
+  </CurrencyRegion>
+  <CurrencyRegion>
+    <ID>SHP</ID>
+    <Name>Saint Helena Pound - SHP</Name>
+  </CurrencyRegion>
+  <CurrencyRegion>
+    <ID>SAR</ID>
+    <Name>Saudi Arabia Riyal - SAR</Name>
+  </CurrencyRegion>
+  <CurrencyRegion>
+    <ID>RSD</ID>
+    <Name>Serbia Dinar - RSD</Name>
+  </CurrencyRegion>
+  <CurrencyRegion>
+    <ID>SCR</ID>
+    <Name>Seychelles Rupee - SCR</Name>
+  </CurrencyRegion>
+  <CurrencyRegion>
+    <ID>SGD</ID>
+    <Name>Singapore Dollar - SGD</Name>
+  </CurrencyRegion>
+  <CurrencyRegion>
+    <ID>SBD</ID>
+    <Name>Solomon Islands Dollar - SBD</Name>
+  </CurrencyRegion>
+  <CurrencyRegion>
+    <ID>SOS</ID>
+    <Name>Somalia Shilling - SOS</Name>
+  </CurrencyRegion>
+  <CurrencyRegion>
+    <ID>ZAR</ID>
+    <Name>South Africa Rand - ZAR</Name>
+  </CurrencyRegion>
+  <CurrencyRegion>
+    <ID>KRW</ID>
+    <Name>Korea (South) Won - KRW</Name>
+  </CurrencyRegion>
+  <CurrencyRegion>
+    <ID>LKR</ID>
+    <Name>Sri Lanka Rupee - LKR</Name>
+  </CurrencyRegion>
+  <CurrencyRegion>
+    <ID>SEK</ID>
+    <Name>Sweden Krona - SEK</Name>
+  </CurrencyRegion>
+  <CurrencyRegion>
+    <ID>CHF</ID>
+    <Name>Switzerland Franc - CHF</Name>
+  </CurrencyRegion>
+  <CurrencyRegion>
+    <ID>SRD</ID>
+    <Name>Suriname Dollar - SRD</Name>
+  </CurrencyRegion>
+  <CurrencyRegion>
+    <ID>SYP</ID>
+    <Name>Syria Pound - SYP</Name>
+  </CurrencyRegion>
+  <CurrencyRegion>
+    <ID>TWD</ID>
+    <Name>Taiwan New Dollar - TWD</Name>
+  </CurrencyRegion>
+  <CurrencyRegion>
+    <ID>THB</ID>
+    <Name>Thailand Baht - THB</Name>
+  </CurrencyRegion>
+  <CurrencyRegion>
+    <ID>TTD</ID>
+    <Name>Trinidad and Tobago Dollar - TTD</Name>
+  </CurrencyRegion>
+  <CurrencyRegion>
+    <ID>TRY</ID>
+    <Name>Turkey Lira - TRY</Name>
+  </CurrencyRegion>
+  <CurrencyRegion>
+    <ID>TRL</ID>
+    <Name>Turkey Lira - TRL</Name>
+  </CurrencyRegion>
+  <CurrencyRegion>
+    <ID>TVD</ID>
+    <Name>Tuvalu Dollar - TVD</Name>
+  </CurrencyRegion>
+  <CurrencyRegion>
+    <ID>UAH</ID>
+    <Name>Ukraine Hryvna - UAH</Name>
+  </CurrencyRegion>
+  <CurrencyRegion>
+    <ID>GBP</ID>
+    <Name>United Kingdom Pound - GBP</Name>
+  </CurrencyRegion>
+  <CurrencyRegion>
+    <ID>UYU</ID>
+    <Name>Uruguay Peso - UYU</Name>
+  </CurrencyRegion>
+  <CurrencyRegion>
+    <ID>UZS</ID>
+    <Name>Uzbekistan Som - UZS</Name>
+  </CurrencyRegion>
+  <CurrencyRegion>
+    <ID>VEF</ID>
+    <Name>Venezuela Bolivar - VEF</Name>
+  </CurrencyRegion>
+  <CurrencyRegion>
+    <ID>VND</ID>
+    <Name>Viet Nam Dong - VND</Name>
+  </CurrencyRegion>
+  <CurrencyRegion>
+    <ID>YER</ID>
+    <Name>Yemen Rial - YER</Name>
+  </CurrencyRegion>
+  <CurrencyRegion>
+    <ID>ZWD</ID>
+    <Name>Zimbabwe Dollar - ZWD</Name>
+  </CurrencyRegion>
+</Currency>
