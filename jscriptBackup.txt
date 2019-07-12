@@ -1,0 +1,188 @@
+﻿    <telerik:RadCodeBlock ID="OvationRadscptBlk" Visible="false" runat="server">
+        <script type="text/javascript">
+               function promptCallBackFn(arg) {
+
+                   if (arg) {
+
+                       var OvationTravAlert = radalert("Thank you for entering your ID of <strong>" + arg + "</strong> we will now fill in the form and you can edit it if you like.", 400, 100, "Thank You");
+                       OvationTravAlert.set_iconUrl("images/radlaerticon.jpg");
+                       OvationTravAlert._titleIconElement.style.background = "transparent url('images/radlaerticon.jpg') no-repeat scroll 0px 0px";
+                       $telerik.$(".radalert").css("background-image", "url('images/ovationLogoAlert.png')");
+                       var myhidden = document.getElementById("<%=myID.ClientID %>").value = arg;
+                       __doPostBack('<%=myID.ClientID %>', '');
+                       //alert(myhidden);
+
+
+                   }
+                  if (arg == "") {
+
+                      var OvationTravAlertNOID = radalert("<strong><%=OvationMemName.Value %></strong> you did not enter an <strong>ID</strong>. If you have received an email with an ID please enter the ID and we will pre-populate the form with data from 2013.<br /><br />If we have not worked with you before please click <strong>Continue to RFP Form.</strong>.", 400, 100, "No ID entry");
+                      OvationTravAlertNOID.set_iconUrl("images/radlaerticon.jpg");
+                      OvationTravAlertNOID._titleIconElement.style.background = "transparent url('images/radlaerticon.jpg') no-repeat scroll 0px 0px";
+
+
+                  }
+                  if (arg == null) {
+                      //alert("cancel was click")
+                      var myhiddenCnel = document.getElementById("<%=myID.ClientID %>").value = "NotThisTime";
+                     // alert(myhiddenCnel)
+                  }
+
+              }
+               
+        </script>
+    </telerik:RadCodeBlock>
+	        <script type="text/javascript">
+            $(document).ready(function () {
+                HighlightControlToValidate();
+                $('#<%=HotelInfoNextBtn.ClientID %>').click(function () {
+                    if (typeof (Page_Validators) != "undefined") {
+                        for (var i = 0; i < Page_Validators.length; i++) {
+                            if (!Page_Validators[i].isvalid) {
+                                var radiocontrolHotel = $('#' + Page_Validators[i].controltovalidate);
+                                var tagNameHotel = radiocontrolHotel[0].tagName;
+                                if (tagNameHotel == "SPAN") {
+
+                                    $('#' + Page_Validators[i].controltovalidate).css("border", "0px");
+                                    //alert(tagName);
+                                }
+                                else {
+
+                                    $('#' + Page_Validators[i].controltovalidate).addClass('RFPerrors');
+                                }
+
+                            }
+                            else {
+                                $('#' + Page_Validators[i].controltovalidate).removeClass('RFPerrors');
+                            }
+                        }
+                        // put here pop up maybe 
+                    }
+                });
+            });
+
+            function HighlightControlToValidate() {
+                if (typeof (Page_Validators) != "undefined") {
+                    for (var i = 0; i < Page_Validators.length; i++) {
+                        $('#' + Page_Validators[i].controltovalidate).blur(function () {
+                            var validatorctrl = getValidatorUsingControl($(this).attr("ID"));
+                            if (validatorctrl != null && !validatorctrl.isvalid) {
+                                $(this).addClass('RFPerrors');
+                            }
+                            else {
+                                $(this).removeClass('RFPerrors');
+                            }
+                        });
+                    }
+                }
+            }
+            function getValidatorUsingControl(controltovalidate) {
+                var length = Page_Validators.length;
+                for (var j = 0; j < length; j++) {
+                    if (Page_Validators[j].controltovalidate == controltovalidate) {
+                        return Page_Validators[j];
+                    }
+                }
+                return null;
+            }   
+        </script>
+		    <telerik:RadCodeBlock ID="MktgCodeBlock" Visible="true" runat="server">
+            <script type="text/javascript">
+                window.alert = function (stringMarketing) {
+                    var oWnderrorMarketing = radalert("" + stringMarketing + "", 550, 100, 'The following fields are required');
+                    oWnderrorMarketing.set_iconUrl("images/radlaerticon.jpg");
+                    oWnderrorMarketing._titleIconElement.style.background = "transparent url('images/radlaerticon.jpg') no-repeat scroll 0px 0px";
+                    oWnderrorMarketing.add_close(document.getElementById('marketingfocus').focus());
+                    
+                }
+
+        </script>
+        <script language="javascript" type="text/javascript">
+            function MarketingPacks_ClientValidate(source, args) {
+                if (document.getElementById("<%= platinum_Package.ClientID %>").checked || document.getElementById("<%= gold_Package.ClientID %>").checked || document.getElementById("<%= silver_Package.ClientID %>").checked) {
+                    args.IsValid = true;
+                }
+                else {
+                    args.IsValid = false;
+
+                }
+
+            }
+            //-->
+        </script>
+    </telerik:RadCodeBlock>
+	        <script type="text/javascript">
+            window.alert = function (stringAmmen) {
+                var oWnderrorAmmen = radalert("" + stringAmmen + "", 550, null, 'The following fields are required');
+                oWnderrorAmmen.set_iconUrl("images/radlaerticon.jpg");
+                oWnderrorAmmen._titleIconElement.style.background = "transparent url('images/radlaerticon.jpg') no-repeat scroll 0px 0px";
+
+            }
+
+        </script>
+
+        <script type="text/javascript">
+            function Open_ddl(ddl) {
+                document.getElementById(ddl).size = 4;
+               // document.getElementById(ddl)
+            }
+
+
+            function Close_ddl(ddl) {
+                document.getElementById(ddl).size = 1;
+            }
+
+        </script>
+		        <script type="text/javascript">
+            $(document).ready(function () {
+                HighlightControlToValidate();
+                $('#<%=RatesAmenitiesNextBtn.ClientID %>').click(function () {
+                    if (typeof (Page_Validators) != "undefined") {
+                        for (var i = 0; i < Page_Validators.length; i++) {
+                            if (!Page_Validators[i].isvalid) {
+                                var radiocontrolAmmen = $('#' + Page_Validators[i].controltovalidate);
+                                var tagNameAmmen = radiocontrolAmmen[0].tagName;
+                                if (tagNameAmmen == "SPAN") {
+
+                                    $('#' + Page_Validators[i].controltovalidate).css("border", "0px");
+
+                                }
+                                else {
+
+                                    $('#' + Page_Validators[i].controltovalidate).addClass('RFPerrors');
+
+                                }
+                            }
+                            else {
+                                $('#' + Page_Validators[i].controltovalidate).removeClass('RFPerrors');
+                            }
+                        }
+                    }
+                });
+            });
+
+                    function HighlightControlToValidate() {
+                        if (typeof (Page_Validators) != "undefined") {
+                            for (var i = 0; i < Page_Validators.length; i++) {
+                                $('#' + Page_Validators[i].controltovalidate).blur(function () {
+                                    var validatorctrl = getValidatorUsingControl($(this).attr("ID"));
+                                    if (validatorctrl != null && !validatorctrl.isvalid) {
+                                        $(this).addClass('RFPerrors');
+                                    }
+                                    else {
+                                        $(this).removeClass('RFPerrors');
+                                    }
+                                });
+                            }
+                        }
+                    }
+                    function getValidatorUsingControl(controltovalidate) {
+                        var length = Page_Validators.length;
+                        for (var j = 0; j < length; j++) {
+                            if (Page_Validators[j].controltovalidate == controltovalidate) {
+                                return Page_Validators[j];
+                            }
+                        }
+                        return null;
+                    }   
+        </script>
